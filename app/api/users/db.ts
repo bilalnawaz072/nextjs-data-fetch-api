@@ -7,13 +7,13 @@ export const user = [
     },
     {
         id: 2,
-        name: "Dr Bilal",
+        name: "Dr Iqbal",
         age: 35,
         gender: "male"
     },
     {
         id: 3,
-        name: "Dr Bilal",
+        name: "Dr Assia",
         age: 35,
         gender: "male"
     }
