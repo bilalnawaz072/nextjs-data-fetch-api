@@ -14,13 +14,13 @@ export async function GET() {
 
 
     const filterData =  user.filter((person) => {
-      return person.id == 1 
+      return person.id == 1
       //      return person.age > 20 && person.city === "Karachi";
      
     })
 
     // Return the user data as a JSON response
-    return NextResponse.json(filterData);
+    return NextResponse.json(filterData,{status:200});
   } catch (error) {
     // Handle any errors that occur during the data retrieval
     console.error("Error retrieving user data:", error);
